@@ -1,0 +1,14 @@
+@tailwind utilities;
+
+.mosaic-window .toolbar-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between controls */
+  }
+  
+  .mosaic-window .toolbar-controls select,
+  .mosaic-window .toolbar-controls button {
+    margin: 0;
+    padding: 4px 8px;
+    font-size: 14px; /* Adjust font size */
+  }
